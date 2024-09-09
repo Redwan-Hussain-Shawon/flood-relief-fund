@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>বন্যার্তদের সহায়তা ফান্ড</title>
+    <link rel="stylesheet" href="assets/css/slider.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+<style>
+    
+    .swiper {
+      width: 250px;
+      height: 150px;
+      margin-top: 30px;
+    }
+
+    .swiper-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .swiper-slide img {
+      width: 100%;
+      object-fit:  cover;
+      border-radius: 4px;
+    }
+
+
+</style>
+</head>
+
+<body>
+    <section class="dgcenter">
+        <a href="" style="padding: 15px;"> সহায়তা কারীদের তালিকা</a>
+ <form action="">
+
+      
+        <div class="container">
+            <h4 class="sub_heading">ইউ ডিবি ডেভেলপমেন্ট সোসাইটি  </h4>
+            <div class="row">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="https://rajshahipost.com/uploads/shares/124335-2021-02-10-14-22-27.jpg" alt="">    
+                       
+                      </div>
+                      <div class="swiper-slide">  <img src="https://sharebiz.net/wp-content/uploads/2020/07/protibondhi.jpg" alt=""></div>
+                      <div class="swiper-slide">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1WEAqaiBnQUJUzA-aB9yNyx4KEarb0ZeuHvi72UO65E1RCn7SxPz99CjsqrFzWd0ghh4&usqp=CAU" alt="">
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="data">
+                <h1>ইউ ডিবি ডেভেলপমেন্ট সোসাইটি, অন্ধ দুস্থ অসহায় ও প্রতিবন্ধী ব্যাক্তিদের সহায়তা ফান্ড
+                </h1>
+                <h4>মোট অনুদান: ২১০৯২৭.২৩ টাকা (৯৯৬ জন)</h4>
+                <span>সকল তথ্য ইংরেজীতে লিখুন</span>
+            </div>
+            <div  class="input_main">
+                <div class="label"><label for="name">নাম (English)</label>
+                    <input type="text" id="name" placeholder="your full name" name="name" required>
+                </div>
+                <div class="label"><label for="phone">সচল মোবাইল নাম্বার</label>
+                    <input type="phone" id="phone" placeholder="01723XXXXXX" name="phone" required>
+                </div>
+                <div class="label"><label for="taka"> টাকার পরিমান</label>
+                    <input type="phone" id="taka" placeholder="amount" name="taka" required>
+                </div>         
+            </div>
+
+                <label class="enddata" for="check">
+                <p>
+                    <input type="checkbox"  id="check" required>
+                    দাখিলকৃত সকল তথ্য সঠিক ভাবে প্রদান করা হয়েছে</p>
+               <button type="submit"  class="button">পরবর্তী</button>
+                </label>    
+                <div class="data2">
+                    <a href="">সহায়তা কারীদের তালিকা</a>
+            <p>কারিগরি সহযোগিতায়: সেবা অটোমেশন</p>
+                </div>                     
+           
+            
+        </div>
+    </form>
+    </section>
+
+
+      <!-- Swiper JS -->
+  <script src="assets/js/slider.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      grabCursor: true,
+      effect: "creative",
+      autoplay: {
+            delay: 4000,
+      },
+      loop:true,
+      creativeEffect: {
+        prev: {
+          shadow: true,
+          translate: [0, 0, -400],
+        },
+        next: {
+          translate: ["100%", 0, 0],
+        },
+      },
+    });
+
+    
+  </script>
+</body>
+</html>

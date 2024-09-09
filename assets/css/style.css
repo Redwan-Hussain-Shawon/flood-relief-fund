@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100..900&display=swap');
+
+
+* {
+
+    margin: 0;
+    padding: 0; 
+    font-family: "Noto Sans Bengali", sans-serif;
+
+}
+body{
+    background-color: #e8f0eb;
+}
+.dgcenter form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 50px);
+    padding: 0 15px;
+}
+.dgcenter a{
+    color: #00c853;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    transition: .3s;
+}
+.dgcenter a:hover{
+    color: #00b049;
+}
+.container{
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 1px 10px rgb(255 255 255 / 16%), 0 3px 6px rgb(122 122 122 / 23%);
+    padding: 20px;
+    background-color: white; 
+    position: relative; 
+    border-radius: 4px;
+}
+.container .sub_heading{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.container .row {
+    padding: 10px;
+    margin: auto;
+}
+
+.container .row img {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.container h1 {
+    font-size: 23px;
+    text-align: center;
+    font-weight: 500;
+    padding:10px 5px ;
+    color: #00c853;
+}
+.container h4 {
+    font-size: 19px;
+    text-align: center;
+    font-weight: 500;
+    padding: 7px;
+}
+.container span {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #ff1744;
+    margin-bottom: 30px;
+    
+}
+.container .input_main{
+    display: flex;
+    gap: 10px;
+    max-width: 600px;
+    border-radius: 4px;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: white;
+}
+.container .input_main input {
+    border: 1px solid #ced4da;
+    color: #495057;
+    outline: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 0.4s;
+}
+.container .input_main input:focus{
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px -1px rgba(0,0,0,0.1);
+    border: 1px solid #00b049;
+}
+.container label {
+    font-size: 15px;
+    color: #515151;
+}
+.container .enddata {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 13px;
+}
+.container .enddata p{
+    color: #656565;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container .enddata  p input{
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+.container .enddata button.button {
+    padding: 6px 20px;
+    border-radius: 4px;
+    background-color: #00c853;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 15px;
+}
+.container .enddata button.button:hover{
+    background-color: #00b049;
+}
+.data2 {
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 12px;
+}
+.container .data2 p{
+    margin-top: 5px;
+    color: #656565;
+    font-size: 14px;
+}
+
+
+
+
+
+@media (max-width:760px) {
+    .container{
+        margin-bottom: 20px;
+    }
+    .container .input_main{
+        display: block;
+        
+    }
+    .container .input_main input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
